@@ -135,7 +135,7 @@ A sample response is
 2. Run docker container using this command line:
 
 ```bash
-docker run -p 8080:8080 -e spring.ai.openai.api-key=<Real OpenAI API key must be here> <name_image>
+docker run --rm --name haiku-ai -p 8080:8080 -e spring.ai.openai.api-key=<Real OpenAI API key must be here> ilananull/haiku-ai:0.1
 ```
 
 [Back to Content](#Content)
